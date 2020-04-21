@@ -1,0 +1,188 @@
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  font-weight: bolder;
+}
+
+p {
+  margin-top: 0px;
+  font-size: 1.8rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: normal;
+}
+
+body {
+  color: #2a7886;
+  margin: 0;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+hr {
+  margin: 100px auto 100px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #e3f6f5;
+  border-width: 10px;
+  width: 7%;
+}
+
+/***************************************************CLASS SELECTOR***************************************************************************/
+
+.top-container {
+  margin-bottom: 20px;
+  background-color: #ecfbfc;
+  height: 700px;
+}
+
+.left-cloud {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  left: 410px;
+  top: 300px;
+}
+
+.right-cloud {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  right: 300px;
+  top: 130px;
+}
+
+.panda {
+  height: 80px;
+  width: 80px;
+  position: fixed;
+  left: 280px;
+  top: 30px;
+}
+
+.top {
+  line-height: normal;
+  height: 300px;
+  width: 600px;
+  position: absolute;
+  left: 500px;
+  bottom: 200px;
+}
+
+.mountain {
+  height: 250px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/***************************************************middle-CLASS SELECTOR***************************************************************************/
+.middle-container {
+  margin-top: 0;
+}
+
+.profile {
+  text-align: center;
+  width: 40%;
+  margin: 40px auto 50px auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #2a7886;
+  font-size: 1.8rem;
+}
+
+.my-photo {
+  margin-bottom: 50px;
+  height: 250px;
+  width: 250px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.skill-description-left {
+  height: 180px;
+  width: 180px;
+  float: left;
+  margin: 40px;
+}
+
+.skill-description-right {
+  height: 180px;
+  width: 180px;
+  float: right;
+  margin: 40px;
+}
+
+.skill-title {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+.contact-description {
+  width: 40%;
+  margin: 30px auto 60px auto;
+  font-size: 1.8rem;
+}
+
+.btn {
+    background-color:  #2a7886;
+    border: none;
+    color:  #ecfbfc;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+.btn:hover{
+    font-weight: bold;
+    background-color: #ecfbfc;
+    color: #2a7886;
+}
+
+
+/***************************************************middle-CLASS SELECTOR***************************************************************************/
+.bottom-container{
+  height: 170px;
+  width: 100%;
+  background-color: #2a7886;
+  margin: 150px auto auto 0;
+}
+.footer-description{
+  padding-left: 40px;
+  padding-top: 15px;
+  color:  #ecfbfc;
+  font-size: 1rem;
+}
+.footer-link{
+
+  margin-left: 40px;
+}
+.footer-li{
+  height: 60px;
+  width: 60px;
+  margin-top: 60px;
+}
+.footer-insta{
+  height: 60px;
+  width: 60px;
+
+}
+.footer-twitter{
+  height: 60px;
+  width: 60px;
+
+}
